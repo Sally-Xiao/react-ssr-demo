@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "babel": {
     "presets": [
@@ -37,6 +37,6 @@
     "isomorphic-fetch": "^2.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "serialize-javascript": "^4.0.0"
+    "v8-profiler-node8": "^6.3.0"
   }
 }
